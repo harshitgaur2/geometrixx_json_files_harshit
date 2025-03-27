@@ -1,0 +1,346 @@
+[
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/88d1b3c97926ad15781e343454d21dc03692aa83eb558682",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.88d1b3c97926ad15781e343454d21dc03692aa83eb558682",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "User Profile Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "type": "object",
+            "properties": {
+              "userCountry": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Country",
+                "meta:xdmType": "string"
+              },
+              "cityName": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "CIty",
+                "meta:xdmType": "string"
+              },
+              "lastName": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Last Name",
+                "meta:xdmType": "string"
+              },
+              "firstName": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "First Name",
+                "meta:xdmType": "string"
+              },
+              "userEmail": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Email",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/1873c56675fd201cb463c306aea077c8e844154c9cd0d02c",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.1873c56675fd201cb463c306aea077c8e844154c9cd0d02c",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Marketing & Tracking",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "type": "object",
+            "properties": {
+              "campaignID": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Campaign ID",
+                "meta:xdmType": "string"
+              },
+              "trackingReferrer": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Marketing Referrer",
+                "meta:xdmType": "string"
+              },
+              "marketingChannel": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Marketing Channel",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/18735213ed52fce66e5740aed294fb77d2475046ee9273e",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.18735213ed52fce66e5740aed294fb77d2475046ee9273e",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Commerce & Product",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "type": "object",
+            "properties": {
+              "productList": {
+                "$ref": "https://ns.adobe.com/xdm/content/productlistitem",
+                "required": [],
+                "type": "object",
+                "description": "",
+                "title": "Product List",
+                "meta:xdmType": "object"
+              },
+              "totalPrice": {
+                "required": [],
+                "type": "number",
+                "description": "",
+                "title": "Total Price",
+                "meta:xdmType": "number"
+              },
+              "purchaseID": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Purchase ID",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/b2f4437e8d7c3b8e4d8edf1f145e744aeafaadf8e2165294",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.b2f4437e8d7c3b8e4d8edf1f145e744aeafaadf8e2165294",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "systemidentifier",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "required": [
+              "userID"
+            ],
+            "type": "object",
+            "properties": {
+              "userID": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "User ID",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/f10e5ea4b778bea045b030e99f8929263166a0219cb907e8",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.f10e5ea4b778bea045b030e99f8929263166a0219cb907e8",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Web Interaction Data",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "type": "object",
+            "properties": {
+              "timeStamp": {
+                "required": [],
+                "format": "date-time",
+                "type": "string",
+                "description": "",
+                "title": "Time Stamp",
+                "meta:xdmType": "date-time"
+              },
+              "interactionType": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Interaction Type",
+                "meta:xdmType": "string"
+              },
+              "pageURL": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Page URL",
+                "meta:xdmType": "string"
+              },
+              "pageName": {
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "Page Name",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/e3742a3bcc70271986b0314c080dae482a3200fc45bb9ee8",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.schemas.e3742a3bcc70271986b0314c080dae482a3200fc45bb9ee8",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "Harshit Geometrixx Demo",
+    "type": "object",
+    "description": "",
+    "allOf": [
+      {
+        "$ref": "https://ns.adobe.com/xdm/context/profile",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/f10e5ea4b778bea045b030e99f8929263166a0219cb907e8",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/88d1b3c97926ad15781e343454d21dc03692aa83eb558682",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/18735213ed52fce66e5740aed294fb77d2475046ee9273e",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/1873c56675fd201cb463c306aea077c8e844154c9cd0d02c",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/b2f4437e8d7c3b8e4d8edf1f145e744aeafaadf8e2165294",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+      "https://ns.adobe.com/xdm/common/auditable",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/88d1b3c97926ad15781e343454d21dc03692aa83eb558682",
+      "https://ns.adobe.com/xdm/data/record",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/1873c56675fd201cb463c306aea077c8e844154c9cd0d02c",
+      "https://ns.adobe.com/xdm/context/profile",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/18735213ed52fce66e5740aed294fb77d2475046ee9273e",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/b2f4437e8d7c3b8e4d8edf1f145e744aeafaadf8e2165294",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/f10e5ea4b778bea045b030e99f8929263166a0219cb907e8"
+    ],
+    "meta:xdmType": "object",
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:sandboxId": "70a3eeb4-ac1c-4227-a3ee-b4ac1c92275e",
+    "meta:sandboxType": "development"
+  }
+]
